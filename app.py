@@ -434,6 +434,18 @@ with st.sidebar:
     st.markdown("## Polarity Merge")
     st.caption("Cross-polarity molecular-network integration")
     st.markdown("**by Ricardo · IPPN/UFRJ**")
+
+    st.markdown("#### Tutorials / Tutoriais")
+    st.link_button(
+        "📖 English tutorial",
+        "https://github.com/RicardoMBorges/polarity_merge_streamlit/blob/main/README.md",
+        use_container_width=True,
+    )
+    st.link_button(
+        "📖 Tutorial em português",
+        "https://github.com/RicardoMBorges/polarity_merge_streamlit/blob/main/README_pt.md",
+        use_container_width=True,
+    )
     st.divider()
 
     st.markdown("### Input networks")
